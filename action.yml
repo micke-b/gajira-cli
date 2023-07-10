@@ -10,6 +10,10 @@ inputs:
     description: Version of the CLI to use
     required: false
     default: 1.0.27
+  architecture:
+    description: Version of the CLI to use
+    required: false
+    default: linux-amd64
 
 runs:
   using: 'node16'
